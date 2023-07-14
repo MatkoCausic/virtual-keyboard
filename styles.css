@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75vh;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 36vh;
+  width: 112vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #383838;
+}
+
+button {
+  background-color: #383838;
+  color: white;
+  border-radius: 1vh;
+}
+button.blueKey {
+  background-color: #96AED0;
+}
+button.redKey {
+  background-color: #F47983;
+}
+button.key {
+  height: 6vh;
+  width: 7vh;
+}
+button.key.oneOne {
+  width: 8.75vh;
+}
+button.key.oneHalf {
+  width: 10.5vh;
+}
+button.key.oneThree {
+  width: 12.25vh;
+}
+button.key.double {
+  width: 14vh;
+}
+button.key.doubleOne {
+  width: 15.75vh;
+}
+button.key.sixOne {
+  width: 43.75vh;
+}
+
+#screen {
+  width: 112vh;
+  height: 6vh;
+  text-align: right;
+  font-size: 4vh;
+  padding: 1vh;
+  color: white;
+  background-color: #96AED0;
+  border-radius: 1vh;
+  overflow: hidden;
+}/*# sourceMappingURL=styles.css.map */
